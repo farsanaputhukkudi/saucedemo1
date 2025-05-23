@@ -19,7 +19,7 @@ public class Homepage {
 	@FindBy(xpath="//a[@href='./cart.html']")
 	WebElement cartbutton;
 	
-	@FindBy(xpath="//a[@class='btn_action checkout_button']")
+	@FindBy(xpath="//a[@href='./checkout-step-one.html']")
 	WebElement checkout;
 	
 	@FindBy(xpath="//*[@id=\"first-name\"]")
